@@ -10,11 +10,14 @@ The provided chat application should exhibit the following functionalities (refe
 - Connecting to the Scaledrone service (further instructions about the service provided in the attachment) and successfully simulating conversations among all active users.
 - Availability via a public GitHub repository.
 
-![Figure 1](https://ibb.co/qsrfg2K)
-*Figure 1: Screenshot of the chat application interface.*
+![Snimka zaslona 2023-08-08 124437](https://github.com/SimeKZ5/projektChatNovi/assets/124262236/069cac7f-7f7e-4f68-9b06-df3c2823524c)
+*Figure 1: Screenshot of the chat login interface.*
 
-![Figure 2](https://ibb.co/RyMJR8q)
+
+![Snimka zaslona 2023-08-08 124500](https://github.com/SimeKZ5/projektChatNovi/assets/124262236/f59ec8a4-ae47-4112-b715-33f849171771)
 *Figure 2: Example conversation simulated within the chat application.*
+
+
 
 ## Scaledrone Integration
 
