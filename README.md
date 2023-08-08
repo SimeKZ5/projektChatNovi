@@ -15,6 +15,9 @@ The provided chat application should exhibit the following functionalities (refe
 
 
 ![Snimka zaslona 2023-08-08 124500](https://github.com/SimeKZ5/projektChatNovi/assets/124262236/f59ec8a4-ae47-4112-b715-33f849171771)
+![Snimka zaslona 2023-08-08 125636](https://github.com/SimeKZ5/projektChatNovi/assets/124262236/5e16afd8-665b-4607-9a54-4ec1cc59376b)
+
+
 *Figure 2: Example conversation simulated within the chat application.*
 
 
