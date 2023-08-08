@@ -1,23 +1,43 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import UserContext from "../context/UserContext";
+import Millenium from "../asssets/images/millennium-falcon.svg";
 
 function Login() {
-  const [user, setUser] = useState();
+  const [username, setUsername] = useState(null);
+  const [error, setError] = useState("");
 
-  const handleLogin = (event) => {
-    event.preventDefault();
-    console.log("Username: ", user);
+  const { onUserLogin } = useContext(UserContext);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    if (!username || !username.replace(/\s/g, "").length) {
+      setError("Choose your username");
+    } else {
+      setError(null);
+      onUserLogin(username);
+    }
   };
   return (
-    <div className="w-60 h-96 bg-blue-400 flex flex-col items-center justify-center rounded-xl border-2">
-      <h1 className="font-bold text-xl relative bottom-20">Welcome to Chat</h1>
-      <p className="text-sm relative bottom-2">Enter your username</p>
-      <input
-        type="text"
-        placeholder="Username"
-        value={user}
-        onChange={(e) => setUser(e.target.value)}
-      />
-      <button onClick={handleLogin}>Login</button>
+    <div className="login">
+      <div className="login-wrapper">
+        <span>
+          <img src={Millenium} alt="DSTM Logo" width="150px" />
+        </span>
+        <span className="logo">Don't shoot the messenger</span>
+        <span className="title">Login</span>
+        <form onSubmit={handleLogin}>
+          <input
+            placeholder="Choose a username"
+            type="text"
+            maxLength="16"
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <div className="error-message">{error}</div>
+          <button type="submit" className="login-button">
+            Enter chat
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

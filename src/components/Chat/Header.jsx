@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+import ChatContext from "../context/ChatContext";
 
-export const Header = ({ currentUser }) => {
+function Header() {
+  const { onClickLogout, user } = useContext(ChatContext);
   return (
     <div>
-      <h2>Bok, {currentUser}!</h2>
+      <div className="header">
+        <div>
+          <div className="header-title">Hello, {user.username}!</div>
+        </div>
+        <button onClick={onClickLogout} type="submit">
+          Logout
+        </button>
+      </div>
     </div>
   );
-};
+}
+
+export default Header;
