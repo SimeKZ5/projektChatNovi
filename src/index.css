@@ -2,6 +2,10 @@
 /*Shadows and borders*/
 /*Font colors*/
 /* Application fonts */
+@font-face {
+  font-family: "starwars";
+  src: url(./components/asssets/Font/Starjedi.ttf);
+}
 body {
   margin: 0;
   min-width: 250px;
@@ -10,7 +14,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: "Star Jedi", sans-serif;
+  font-family: "starwars", sans-serif;
   color: #a8a8a8;
 }
 
@@ -34,13 +38,13 @@ body {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 .login .login-wrapper .logo {
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-size: 1.5em;
   font-weight: 800;
   color: #000000;
 }
 .login .login-wrapper .title {
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-size: 1em;
   font-weight: 800;
   color: #050149;
@@ -82,7 +86,7 @@ body {
   border-radius: 5px;
   background-color: #000000;
   font-size: 1.5em;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   color: #ffffff;
   font-weight: 600;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -127,7 +131,7 @@ body {
 }
 .chat .chat-wrapper .sidebar .logo .logo-text {
   color: #ffffff;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-size: 1em;
 }
 .chat .chat-wrapper .sidebar .active-users {
@@ -143,7 +147,7 @@ body {
   height: 10%;
   padding: 10px;
   color: #ffffff;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-size: 1.2em;
   border-bottom: 1px solid rgba(235, 235, 235, 0.1450980392);
 }
@@ -166,7 +170,7 @@ body {
   background-color: rgba(87, 88, 88, 0.5803921569);
 }
 .chat .chat-wrapper .sidebar .active-users .member .username {
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   color: #ffffff;
   font-size: 1.8em;
 }
@@ -189,7 +193,7 @@ body {
   align-items: center;
 }
 .chat .chat-wrapper .container-right .header .header-title {
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-size: 1.8em;
   color: #000000;
   font-weight: 600;
@@ -202,7 +206,7 @@ body {
   border-radius: 3px;
   font-size: 1em;
   cursor: pointer;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   width: 80px;
 }
@@ -237,7 +241,7 @@ body {
 }
 .chat .chat-wrapper .container-right .messages ul li span.timestamp {
   font-size: 0.7em;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   color: #cecece;
 }
 .chat .chat-wrapper .container-right .messages ul li span.chat-username {
@@ -245,7 +249,7 @@ body {
   width: fit-content;
   margin-left: auto;
   font-size: 1.4em;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   font-weight: 500;
   color: #cecece;
 }
@@ -291,7 +295,7 @@ body {
   border-radius: 3px;
   font-size: 1em;
   cursor: pointer;
-  font-family: "Star Jedi", cursive;
+  font-family: "starwars", cursive;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   width: 80px;
 }

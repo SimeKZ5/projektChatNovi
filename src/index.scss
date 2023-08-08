@@ -19,9 +19,13 @@ $font-light: #ffffffc5;
 $placeholder-color: #8f8f8f;
 
 /* Application fonts */
-$font-default: "Star Jedi", sans-serif;
-$font-logo: "Star Jedi", cursive;
-$font-user: "Star Jedi", cursive;
+@font-face {
+  font-family: "starwars";
+  src: url(./components/asssets/Font/Starjedi.ttf);
+}
+$font-default: "starwars", sans-serif;
+$font-logo: "starwars", cursive;
+$font-user: "starwars", cursive;
 
 body {
   margin: 0;
