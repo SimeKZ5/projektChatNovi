@@ -10,7 +10,7 @@ The provided chat application should exhibit the following functionalities (refe
 - Connecting to the Scaledrone service (further instructions about the service provided in the attachment) and successfully simulating conversations among all active users.
 - Availability via a public GitHub repository.
 
-![Figure 1]([https://ibb.co/qsrfg2K])
+![Figure 1]https://ibb.co/qsrfg2K
 *Figure 1: Screenshot of the chat application interface.*
 
 ![Figure 2](https://ibb.co/RyMJR8q)
