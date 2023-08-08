@@ -23,7 +23,7 @@ function Login() {
         <span>
           <img src={Millenium} alt="DSTM Logo" width="150px" />
         </span>
-        <span className="logo">Don't shoot the messenger</span>
+        <span className="logo">Don't shoot messenger</span>
         <span className="title">Login</span>
         <form onSubmit={handleLogin}>
           <input
